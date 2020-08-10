@@ -1,5 +1,6 @@
 # db-data
 db-data/
+
 # Laravel Gitignore
 /node_modules
 /public/hot

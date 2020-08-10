@@ -1,4 +1,4 @@
-## Dokcer
+## :speech_balloon: Dokcer
 
 docker-compose build --no-cache
 
@@ -6,14 +6,22 @@ docker-compose up -d
 
 docker-compose down
 
-## PHP FPM
+## :droplet: PHP FPM
 
 docker-compose exec php-fpm bash
 
-## DB
+## :outbox_tray: DB
 
 docker-compose exec db bash
 
 mysql -u test -ptest
+
+#### :soon: How to Start
+
+composer intall
+
+
+
+
 
  
