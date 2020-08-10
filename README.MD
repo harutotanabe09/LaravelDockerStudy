@@ -20,8 +20,8 @@ mysql -u test -ptest
 
 composer intall
 
+#### :paperclip: How to Start Test Code
 
-
-
-
- 
+```php
+php artisan test
+```
