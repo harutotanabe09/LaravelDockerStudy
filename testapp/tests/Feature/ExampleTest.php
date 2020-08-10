@@ -8,6 +8,7 @@ use Tests\TestCase;
 class ExampleTest extends TestCase
 {
     /**
+     * @test
      * A basic test example.
      *
      * @return void
