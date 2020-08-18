@@ -25,3 +25,23 @@ composer intall
 ```php
 php artisan test
 ```
+
+---
+
+:deciduous_tree: AWS Elastic Beanstalk
+
+https://dev.classmethod.jp/articles/elastic-beanstalk-laravel-speed-deploy/
+
+#### 設定 -> セキュリティ -> EC2 キーペアを設定
+
+```bash
+$  sudo chmod 777 /var/app/current/storage/logs/
+$  cd /var/app/current
+$  cp .env.example .env
+$  php artisan key:generate
+```
+
+---
+
+
+

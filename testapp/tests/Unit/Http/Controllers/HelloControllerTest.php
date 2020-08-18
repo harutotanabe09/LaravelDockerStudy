@@ -3,6 +3,7 @@
 namespace Tests\Http\Controllers;
 
 use App\Http\Controllers\HelloController;
+use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 
 /**
@@ -20,6 +21,7 @@ class HelloControllerTest extends TestCase
      */
     public function testIndex()
     {
-        $this->assertTrue(true);
+        $date = Carbon::now();
+        $this->assertEquals(2020, $date->year);
     }
 }
